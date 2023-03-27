@@ -8,12 +8,12 @@ const Posts = ({ data }) => {
             {
                 data.map(item => {
                     return (
-                        <>
+                        <div key={item.id}>
                             <hr />
                             <h3>{item.title}</h3>
                             <p>{item.body}</p>
                             <Link href={`/post/${item.id}`}><button>View</button></Link>
-                        </>
+                        </div>
                     )
                 })
             }
