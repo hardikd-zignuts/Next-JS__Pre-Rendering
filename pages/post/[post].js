@@ -35,7 +35,8 @@ export async function getStaticProps(ctx) {
     return {
         props: {
             data: data
-        }
+        },
+        revalidate: 10 //get updated data and rebuild after 10 seconds
     }
 }
 // -----------------------------------------------------
