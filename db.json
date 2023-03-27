@@ -1,0 +1,35 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "News 1",
+      "description": "long description for news 1",
+      "category": "science"
+    },
+    {
+      "id": 2,
+      "title": "News 2",
+      "description": "long description for news 2",
+      "category": "sports"
+    },
+    {
+      "id": 3,
+      "title": "News 3",
+      "description": "long description for news 3",
+      "category": "sports"
+    },
+
+    {
+      "id": 4,
+      "title": "News 4",
+      "description": "long description for news 4",
+      "category": "politics"
+    },
+    {
+      "id": 5,
+      "title": "News 5",
+      "description": "long description for news 5",
+      "category": "science"
+    }
+  ]
+}
