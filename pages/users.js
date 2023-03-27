@@ -1,5 +1,4 @@
 import User from '@/components/User';
-import axios from 'axios';
 import React from 'react'
 
 const users = ({ users }) => {
